@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		49A5A0171C1CBBB600BE9F39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A5A0161C1CBBB600BE9F39 /* main.m */; };
 		49A5A01A1C1CBBB600BE9F39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A5A0191C1CBBB600BE9F39 /* AppDelegate.m */; };
-		49A5A01D1C1CBBB600BE9F39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A5A01C1C1CBBB600BE9F39 /* ViewController.m */; };
-		49A5A0201C1CBBB600BE9F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A5A01E1C1CBBB600BE9F39 /* Main.storyboard */; };
+		49A5A01D1C1CBBB600BE9F39 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A5A01C1C1CBBB600BE9F39 /* RootViewController.m */; };
 		49A5A0221C1CBBB600BE9F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A5A0211C1CBBB600BE9F39 /* Assets.xcassets */; };
 		49A5A0251C1CBBB600BE9F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A5A0231C1CBBB600BE9F39 /* LaunchScreen.storyboard */; };
+		49A5A02D1C1CBC7A00BE9F39 /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49A5A02C1C1CBC7A00BE9F39 /* RootView.xib */; };
+		49A5A0301C1CBE6500BE9F39 /* UISegmentedControl+MulticolorSegments.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A5A02F1C1CBE6500BE9F39 /* UISegmentedControl+MulticolorSegments.m */; };
+		49A5A0341C1CDCB900BE9F39 /* NBMulticolorSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A5A0331C1CDCB900BE9F39 /* NBMulticolorSegmentControl.m */; };
+		49A5A0371C1CDE0900BE9F39 /* NBMulticolorSegmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A5A0361C1CDE0900BE9F39 /* NBMulticolorSegmentItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		49A5A0161C1CBBB600BE9F39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49A5A0181C1CBBB600BE9F39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49A5A0191C1CBBB600BE9F39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		49A5A01B1C1CBBB600BE9F39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		49A5A01C1C1CBBB600BE9F39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		49A5A01F1C1CBBB600BE9F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A5A01B1C1CBBB600BE9F39 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		49A5A01C1C1CBBB600BE9F39 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		49A5A0211C1CBBB600BE9F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49A5A0241C1CBBB600BE9F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49A5A0261C1CBBB600BE9F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A5A02C1C1CBC7A00BE9F39 /* RootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
+		49A5A02E1C1CBE6500BE9F39 /* UISegmentedControl+MulticolorSegments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+MulticolorSegments.h"; sourceTree = "<group>"; };
+		49A5A02F1C1CBE6500BE9F39 /* UISegmentedControl+MulticolorSegments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+MulticolorSegments.m"; sourceTree = "<group>"; };
+		49A5A0321C1CDCB900BE9F39 /* NBMulticolorSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBMulticolorSegmentControl.h; sourceTree = "<group>"; };
+		49A5A0331C1CDCB900BE9F39 /* NBMulticolorSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBMulticolorSegmentControl.m; sourceTree = "<group>"; };
+		49A5A0351C1CDE0900BE9F39 /* NBMulticolorSegmentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBMulticolorSegmentItem.h; sourceTree = "<group>"; };
+		49A5A0361C1CDE0900BE9F39 /* NBMulticolorSegmentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBMulticolorSegmentItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +67,18 @@
 		49A5A0141C1CBBB600BE9F39 /* MulticolorSegmentControl */ = {
 			isa = PBXGroup;
 			children = (
+				49A5A0311C1CDC9300BE9F39 /* MulticolorSegmentControl */,
 				49A5A0181C1CBBB600BE9F39 /* AppDelegate.h */,
 				49A5A0191C1CBBB600BE9F39 /* AppDelegate.m */,
-				49A5A01B1C1CBBB600BE9F39 /* ViewController.h */,
-				49A5A01C1C1CBBB600BE9F39 /* ViewController.m */,
-				49A5A01E1C1CBBB600BE9F39 /* Main.storyboard */,
+				49A5A01B1C1CBBB600BE9F39 /* RootViewController.h */,
+				49A5A01C1C1CBBB600BE9F39 /* RootViewController.m */,
 				49A5A0211C1CBBB600BE9F39 /* Assets.xcassets */,
 				49A5A0231C1CBBB600BE9F39 /* LaunchScreen.storyboard */,
 				49A5A0261C1CBBB600BE9F39 /* Info.plist */,
 				49A5A0151C1CBBB600BE9F39 /* Supporting Files */,
+				49A5A02C1C1CBC7A00BE9F39 /* RootView.xib */,
+				49A5A02E1C1CBE6500BE9F39 /* UISegmentedControl+MulticolorSegments.h */,
+				49A5A02F1C1CBE6500BE9F39 /* UISegmentedControl+MulticolorSegments.m */,
 			);
 			path = MulticolorSegmentControl;
 			sourceTree = "<group>";
@@ -77,6 +89,17 @@
 				49A5A0161C1CBBB600BE9F39 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49A5A0311C1CDC9300BE9F39 /* MulticolorSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				49A5A0321C1CDCB900BE9F39 /* NBMulticolorSegmentControl.h */,
+				49A5A0331C1CDCB900BE9F39 /* NBMulticolorSegmentControl.m */,
+				49A5A0351C1CDE0900BE9F39 /* NBMulticolorSegmentItem.h */,
+				49A5A0361C1CDE0900BE9F39 /* NBMulticolorSegmentItem.m */,
+			);
+			name = MulticolorSegmentControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,7 @@
 			files = (
 				49A5A0251C1CBBB600BE9F39 /* LaunchScreen.storyboard in Resources */,
 				49A5A0221C1CBBB600BE9F39 /* Assets.xcassets in Resources */,
-				49A5A0201C1CBBB600BE9F39 /* Main.storyboard in Resources */,
+				49A5A02D1C1CBC7A00BE9F39 /* RootView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A5A01D1C1CBBB600BE9F39 /* ViewController.m in Sources */,
+				49A5A0301C1CBE6500BE9F39 /* UISegmentedControl+MulticolorSegments.m in Sources */,
+				49A5A01D1C1CBBB600BE9F39 /* RootViewController.m in Sources */,
+				49A5A0371C1CDE0900BE9F39 /* NBMulticolorSegmentItem.m in Sources */,
+				49A5A0341C1CDCB900BE9F39 /* NBMulticolorSegmentControl.m in Sources */,
 				49A5A01A1C1CBBB600BE9F39 /* AppDelegate.m in Sources */,
 				49A5A0171C1CBBB600BE9F39 /* main.m in Sources */,
 			);
@@ -158,14 +184,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		49A5A01E1C1CBBB600BE9F39 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49A5A01F1C1CBBB600BE9F39 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		49A5A0231C1CBBB600BE9F39 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

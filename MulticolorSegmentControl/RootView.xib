@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController">
+            <connections>
+                <outlet property="label" destination="mWf-EU-y8b" id="D20-fD-Chd"/>
+                <outlet property="segmentedControl" destination="Vqs-Yv-56N" id="6D2-SR-cIy"/>
+                <outlet property="testImage" destination="djY-EN-4FI" id="tmN-oy-0Uh"/>
+                <outlet property="view" destination="iN0-l3-epB" id="viY-z9-Xbg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Root View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWf-EU-y8b">
+                    <rect key="frame" x="262" y="289" width="77" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Vqs-Yv-56N">
+                    <rect key="frame" x="8" y="40" width="584" height="29"/>
+                    <segments>
+                        <segment title="Good"/>
+                        <segment title="Worn"/>
+                        <segment title="Cracked"/>
+                        <segment title="Scrap"/>
+                    </segments>
+                </segmentedControl>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="djY-EN-4FI">
+                    <rect key="frame" x="250" y="171" width="100" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="8EE-Jj-ptf"/>
+                        <constraint firstAttribute="width" constant="100" id="eWp-aA-SR9"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="mWf-EU-y8b" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9fH-ib-9wD"/>
+                <constraint firstItem="Vqs-Yv-56N" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="cte-Qt-f7J"/>
+                <constraint firstItem="mWf-EU-y8b" firstAttribute="top" secondItem="djY-EN-4FI" secondAttribute="bottom" constant="89" id="eDK-Xm-N43"/>
+                <constraint firstAttribute="trailing" secondItem="Vqs-Yv-56N" secondAttribute="trailing" constant="8" id="eXI-hd-Yrc"/>
+                <constraint firstItem="Vqs-Yv-56N" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="hfZ-8L-pMJ"/>
+                <constraint firstItem="mWf-EU-y8b" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="sMe-Oi-Tla"/>
+                <constraint firstItem="djY-EN-4FI" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="y7I-vL-uda"/>
+            </constraints>
+            <point key="canvasLocation" x="497" y="539"/>
+        </view>
+    </objects>
+</document>
