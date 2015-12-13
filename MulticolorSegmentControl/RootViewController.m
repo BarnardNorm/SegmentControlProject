@@ -8,7 +8,6 @@
 
 #import "NBMulticolorSegmentControl.h"
 #import "RootViewController.h"
-#import "UISegmentedControl+MulticolorSegments.h"
 
 @interface RootViewController ()
 
