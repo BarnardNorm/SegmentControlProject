@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.label.text = @"The Root View";
+    self.label.text = @"Root View Label";
     
     NSArray <NBMulticolorSegmentItem *> *items = \
         @[
